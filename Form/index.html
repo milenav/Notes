@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toya Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>КАК ДА ВИ ПОМОГНЕМ?</h1>
+            <p>Попълнете полетата с информация по-долу и ние ще се свържем с Вас директно</p>
+        </div>
+    </header>
+    <section class="info">
+        <article>
+            <span>АДРЕС:</span>
+            <p>кв.Подуяне,ул.Гълъбец</p>
+            <p>N28, гр.София</p>
+        </article>
+        <article>
+            <span>РАБОТНО ВРЕМЕ:</span>
+            <p>Понеделник / Събота:</p>
+            <p>10.30 -19.00 ч.</p>
+        </article>
+        <article>
+            <span>ТЕЛЕФОН ЗА ВРЪЗКА:</span>
+            <p>02/87 34757</p>
+            <p>0887/80 31 87</p>
+        </article>
+        <article>
+            <span>E-MAIL:</span>
+            <p>to_ja@abv.bg</p>
+        </article>
+    </section>
+    <main>
+        <section class="left-part">
+            <div>
+                <img src="images/map.jpg" alt="">
+                <p>*на 10 минути пеша от <span>Сточна гара</span> (подходящ градски</p>
+                <p>транспорт-<span>автобус 413</span> (Младост 4 - Централна Ж.П.Г)</p>
+            </div>
+        </section>
+
+        <section class="right-part">
+            <form action="">
+                <div class="names">
+                    <label for="">
+                        <p>Потребителско име</p>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Потребителско име">
+                    </label>
+                    <label for="">
+                        <p>E-mail</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="email" placeholder="E-mail">
+                    </label>
+                </div>
+
+                <div class="text-info">
+                    <label for="">
+                        <p>Парола</p>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="********">
+                    </label>
+                    <label for="">
+                        <p>Потвърди парола</p>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="********">
+                    </label>
+                </div>
+                <label class="text-area">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Съобщение*"></textarea>
+                </label>
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

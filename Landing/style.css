@@ -1,0 +1,117 @@
+.top {
+  display: flex; }
+  .top nav ul {
+    list-style: none;
+    display: flex;
+    float: right; }
+  .top a {
+    text-decoration: none;
+    color: white;
+    margin-right: 80px;
+    font-size: 18px; }
+  .top .image-container img {
+    width: 150px;
+    float: left;
+    margin-top: 15px; }
+  .top div.navigation span {
+    color: yellowgreen; }
+  .top .image-container {
+    width: 30%;
+    background-color: yellowgreen; }
+  .top .navigation {
+    width: 70%;
+    background-color: darkgrey; }
+
+header {
+  padding-top: 30px;
+  background: url("images/background-header.jpg") no-repeat;
+  background-size: cover;
+  height: 650px; }
+  header .background {
+    text-align: center;
+    color: white;
+    margin-top: 0; }
+  header h1 {
+    margin-top: 120px;
+    font-size: 48px; }
+  header h1 span {
+    color: yellowgreen; }
+  header p {
+    font-size: 22px;
+    padding: 100px; }
+  header button {
+    background: yellowgreen;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    color: white; }
+
+main {
+  color: darkgrey; }
+  main h1 {
+    text-align: center;
+    margin-top: 100px; }
+  main .one {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 300px 0 300px; }
+  main .border {
+    border-bottom: 3px solid yellowgreen;
+    width: 60px;
+    margin: auto; }
+  main div.services {
+    width: 300px; }
+  main section.service {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px; }
+  main .services img {
+    width: 300px; }
+  main h3 {
+    color: yellowgreen; }
+  main button {
+    background: yellowgreen;
+    border: none;
+    color: white;
+    padding: 5px;
+    float: left;
+    margin-top: 10px; }
+  main div.joble {
+    width: 200px; }
+  main section.jobs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+  main p {
+    text-align: center; }
+  main .jobs img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; }
+  main .color {
+    background: lightgray; }
+  main .color h1 {
+    padding-top: 30px; }
+  main .joble {
+    margin-top: 50px; }
+  main .joble p {
+    padding-bottom: 50px; }
+
+footer {
+  color: white;
+  padding-top: 20px;
+  background: #2C2C2C; }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; }
+  footer li {
+    padding: 0 150px; }
+  footer div i {
+    background: lightgray;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%; }
+
+/*# sourceMappingURL=style.css.map */
